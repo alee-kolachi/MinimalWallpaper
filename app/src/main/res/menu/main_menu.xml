@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom"
+        android:title="Save"
+        ></item>
 
-    <item android:id="@+id/save_item"
-        android:icon="@drawable/ic_save_wallpaper"
+    <item android:id="@+id/download"
+        android:icon="@drawable/ic_file_download"
+        app:showAsAction="ifRoom"
+        android:title="Save"
+        ></item>
+    <item android:id="@+id/save"
+        android:icon="@drawable/ic_save"
         app:showAsAction="ifRoom"
         android:title="Save"
         ></item>
 
 </menu>
+
+
+
